@@ -13,6 +13,11 @@ padding:1.2rem;
   &--testimonials {
     background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
     background-size:cover;
+
+    @mixin atMedium {
+      background-color: #e0e6ef;
+    }
+
   }
 
 }
